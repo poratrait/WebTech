@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Upload Files</title></head>
+<body>
+    <form action="upload.php" method="POST" enctype="multipart/form-data">
+        Resume (PDF/DOC only, ≤ 500KB): 
+        <input type="file" name="resume" accept=".pdf,.doc,.docx"><br><br>
+        
+        Photo (JPEG/JPG only, ≤ 1MB): 
+        <input type="file" name="photo" accept=".jpeg,.jpg"><br><br>
+        
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
